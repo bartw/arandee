@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "lerna run start"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }

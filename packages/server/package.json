@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node src/index.js",
+    "publish:schema": "npx apollo service:push --endpoint=http://localhost:4000"
+  },
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  }
+}
